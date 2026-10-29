@@ -51,3 +51,7 @@ if (aluno6Media >= 7) {
 } else {
     console.log("Aluno(a): " + aluno6Nome + " - reprovado.");
 }
+
+
+console.log("Aprovados: " + aprovados)
+console.log("média da turma " + (soma / medias.lenght). torfixed(2));
