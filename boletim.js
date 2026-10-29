@@ -74,5 +74,5 @@ while (input != -1){
 
 }
 
-console.log("aprovados: " + aprovados):
-console.log("media da turma: " + (soma / medias.length).torfixed(2) ):
+console.log("aprovados: " + aprovados);
+console.log("media da turma: " + (soma / medias.length).torfixed(2) );
