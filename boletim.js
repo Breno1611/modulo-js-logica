@@ -59,20 +59,20 @@
 const medias = []
 let input;
 
-while (input != -1){
+while (input != -1) {
     input = number(prompt("qual a prox media"))
-    if (input != -1){
-    média.push (input)
-    }    
+    if (input != -1) {
+        média.push(input)
+    }
 }
- for (let i =0; i < medias.length; i++) {
-     soma = soma + medias [i] // i = 5
-     //      40.7
-     if (medias[i] >= 7) {
+for (let i = 0; i < medias.length; i++) {
+    soma = soma + medias[i] // i = 5
+    //      40.7
+    if (medias[i] >= 7) {
         aprovados++
-    }        
+    }
 
 }
 
 console.log("aprovados: " + aprovados);
-console.log("media da turma: " + (soma / medias.length).torfixed(2) );
+console.log("media da turma: " + (soma / medias.length).tofixed(2));
